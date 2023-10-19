@@ -16,7 +16,7 @@ public class UpdateForm {
 
   @NotNull
   @Positive
-  @Min(100)
-  @Max(1000000)
+  // @Min(100)
+  // @Max(1000000)  
   private Long price;
 }
