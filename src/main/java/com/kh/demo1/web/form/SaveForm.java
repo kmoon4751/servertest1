@@ -10,12 +10,11 @@ public class SaveForm {
   private String pname;
   @NotNull
   @Positive   //양수
-//  @Max(value=1000,message="최대값은 1000초과 불과")  //최대 1000초과 불과!
   private Long quantity;
 
   @NotNull
   @Positive
-  @Min(100)
-  @Max(1000000)
+  @Min(1000)
+  @Max(10000000)
   private Long price;
 }
